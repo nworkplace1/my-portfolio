@@ -2,117 +2,134 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cybersecurity Portfolio</title>
-    <!-- Tailwind CSS CDN -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: #0F172A; /* Slate-900 */
-            color: #F8FAFC; /* Slate-50 */
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cybersecurity Portfolio — Naser Almenhali</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #0F172A; /* Slate-900 */
+      color: #F8FAFC; /* Slate-50 */
+    }
+  </style>
 </head>
 
 <body class="antialiased">
-    <header class="py-6 px-4 md:px-8 lg:px-16 flex justify-between items-center bg-slate-800 shadow-lg">
-        <h1 class="text-3xl font-bold text-teal-400">[Your Name]</h1>
-        <nav>
-            <ul class="flex space-x-4">
-                <li><a href="#about" class="text-slate-300 hover:text-white transition-colors duration-300">About</a></li>
-                <li><a href="#skills" class="text-slate-300 hover:text-white transition-colors duration-300">Skills</a></li>
-                <li><a href="#certifications" class="text-slate-300 hover:text-white transition-colors duration-300">Certifications</a></li>
-                <li><a href="#contact" class="text-slate-300 hover:text-white transition-colors duration-300">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header class="py-6 px-4 md:px-8 lg:px-16 flex justify-between items-center bg-slate-800 shadow-lg sticky top-0 z-50">
+    <h1 class="text-3xl font-bold text-teal-400">Naser Almenhali</h1>
+    <nav>
+      <ul class="flex space-x-4">
+        <li><a href="#about" class="text-slate-300 hover:text-white transition-colors duration-300">About</a></li>
+        <li><a href="#skills" class="text-slate-300 hover:text-white transition-colors duration-300">Skills</a></li>
+        <li><a href="#certifications" class="text-slate-300 hover:text-white transition-colors duration-300">Certifications</a></li>
+        <li><a href="#contact" class="text-slate-300 hover:text-white transition-colors duration-300">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <main class="py-12 px-4 md:px-8 lg:px-16">
-        <!-- About Me Section -->
-        <section id="about" class="container mx-auto max-w-4xl bg-slate-800 p-8 rounded-2xl shadow-xl mb-12">
-            <div class="flex flex-col md:flex-row items-center md:items-start space-y-6 md:space-y-0 md:space-x-8">
-                <div class="w-36 h-36 rounded-full overflow-hidden flex-shrink-0 border-4 border-teal-400 shadow-lg">
-                    <!-- Placeholder for your professional headshot -->
-                    <img src="https://placehold.co/144x144/1a202c/e2e8f0?text=Your+Photo" alt="Your professional headshot" class="w-full h-full object-cover">
-                </div>
-                <div class="text-center md:text-left">
-                    <h2 class="text-4xl font-bold mb-4 text-white">About Me</h2>
-                    <p class="text-lg text-slate-300">
-                        I am a dedicated cybersecurity student with a strong passion for network security and digital forensics. My goal is to leverage my academic knowledge and certified skills to protect digital infrastructure and solve complex security challenges. I am a quick learner and thrive in dynamic environments where I can apply my analytical and problem-solving abilities.
-                    </p>
-                    <p class="mt-4 text-lg text-slate-300">
-                        [Feel free to customize this paragraph to reflect your specific interests and goals.]
-                    </p>
-                </div>
-            </div>
-        </section>
+  <main class="py-12 px-4 md:px-8 lg:px-16">
+    <!-- About Me Section -->
+    <section id="about" class="container mx-auto max-w-4xl bg-slate-800 p-8 rounded-2xl shadow-xl mb-12">
+      <div class="flex flex-col md:flex-row items-center md:items-start space-y-6 md:space-y-0 md:space-x-8">
+        <div class="w-36 h-36 rounded-full overflow-hidden flex-shrink-0 border-4 border-teal-400 shadow-lg">
+          <img src="https://placehold.co/144x144/1a202c/e2e8f0?text=N" alt="Naser Almenhali headshot placeholder" class="w-full h-full object-cover" />
+        </div>
+        <div class="text-center md:text-left">
+          <h2 class="text-4xl font-bold mb-4 text-white">About Me</h2>
+          <p class="text-lg text-slate-300">
+            I’m <span class="font-semibold text-white">Naser Almenhali</span>, a cybersecurity student based in Abu Dhabi (UAE). I focus on
+            <span class="font-semibold text-white">ethical hacking, network security, web security, and applied cryptography</span>. I study at
+            <span class="font-semibold text-white">Emirates National School — Mohamed Bin Zayed campus</span> and document my work with precise commands, clear screenshots, and reproducible steps.
+          </p>
+          <p class="mt-4 text-lg text-slate-300">
+            I enjoy breaking things safely to understand how to defend them—building secure apps, modeling threats (STRIDE), and writing IEEE‑style reports. I value accuracy, clean structure, and actionable results.
+          </p>
+        </div>
+      </div>
+    </section>
 
-        <!-- Skills & Coursework Section -->
-        <section id="skills" class="container mx-auto max-w-4xl bg-slate-800 p-8 rounded-2xl shadow-xl mb-12">
-            <h2 class="text-4xl font-bold mb-8 text-center text-white">Skills & Coursework</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div>
-                    <h3 class="text-2xl font-semibold mb-4 text-teal-400">Technical Skills</h3>
-                    <ul class="list-disc list-inside space-y-2 text-slate-300">
-                        <li>Python</li>
-                        <li>Kali Linux</li>
-                        <li>Wireshark</li>
-                        <li>Metasploit</li>
-                        <li>SQL</li>
-                        <li>[Add your specific skills here]</li>
-                    </ul>
-                </div>
-                <div>
-                    <h3 class="text-2xl font-semibold mb-4 text-teal-400">Relevant Coursework</h3>
-                    <ul class="list-disc list-inside space-y-2 text-slate-300">
-                        <li>Network Security</li>
-                        <li>Ethical Hacking & Penetration Testing</li>
-                        <li>Digital Forensics</li>
-                        <li>Cryptography</li>
-                        <li>[Add your specific classes here]</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
+    <!-- Skills & Coursework Section -->
+    <section id="skills" class="container mx-auto max-w-4xl bg-slate-800 p-8 rounded-2xl shadow-xl mb-12">
+      <h2 class="text-4xl font-bold mb-8 text-center text-white">Skills & Coursework</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div>
+          <h3 class="text-2xl font-semibold mb-4 text-teal-400">Technical Skills</h3>
+          <ul class="list-disc list-inside space-y-2 text-slate-300">
+            <li>Kali Linux, Nmap, Metasploit, Burp Suite, sqlmap, Hydra</li>
+            <li>Wireshark (packet capture & traffic analysis)</li>
+            <li>Web security (OWASP Top 10, auth/session hardening)</li>
+            <li>Python, Bash, JavaScript, PHP</li>
+            <li>SQL (MySQL/SQLite/Oracle basics)</li>
+            <li>Git, Markdown, LaTeX (Overleaf)</li>
+            <li>Cisco Packet Tracer (RIP, static/floating routes, VLANs)</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-2xl font-semibold mb-4 text-teal-400">Relevant Coursework</h3>
+          <ul class="list-disc list-inside space-y-2 text-slate-300">
+            <li>Ethical Hacking & Penetration Testing</li>
+            <li>Introduction to Software Security (OWASP 2021)</li>
+            <li>Applied Cryptography & Network Security (Stallings)</li>
+            <li>Web Programming & Security (HTML/CSS/JS, PHP, SQL, SQL Injection)</li>
+            <li>Data Structures & Algorithms (arrays, stacks/queues, linked lists, sorting)</li>
+            <li>Routing & Switching (static/default routes, RIP)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-        <!-- Certifications & Achievements Section -->
-        <section id="certifications" class="container mx-auto max-w-4xl bg-slate-800 p-8 rounded-2xl shadow-xl mb-12">
-            <h2 class="text-4xl font-bold mb-8 text-center text-white">Certifications & Achievements</h2>
-            <div class="space-y-6 text-slate-300">
-                <div class="bg-slate-700 p-6 rounded-xl shadow-inner">
-                    <h3 class="text-2xl font-semibold text-teal-400">[Certification Name, e.g., CompTIA Security+]</h3>
-                    <p class="mt-2 text-lg">**Date Awarded:** [Month, Year]</p>
-                    <p class="mt-2">[A brief explanation of what the certification covers and why it's important.]</p>
-                </div>
-                <div class="bg-slate-700 p-6 rounded-xl shadow-inner">
-                    <h3 class="text-2xl font-semibold text-teal-400">[Award or Achievement]</h3>
-                    <p class="mt-2 text-lg">**Date Awarded:** [Month, Year]</p>
-                    <p class="mt-2">[A brief explanation of the achievement.]</p>
-                </div>
-            </div>
-        </section>
+    <!-- Certifications Section -->
+    <section id="certifications" class="container mx-auto max-w-4xl bg-slate-800 p-8 rounded-2xl shadow-xl mb-12">
+      <h2 class="text-4xl font-bold mb-8 text-center text-white">Certifications</h2>
+      <div class="space-y-6 text-slate-300">
+        <div class="bg-slate-700 p-6 rounded-xl shadow-inner">
+          <h3 class="text-2xl font-semibold text-teal-400">CompTIA Network+</h3>
+          <p class="mt-2 text-lg">Vendor-neutral certification validating networking concepts, troubleshooting, and infrastructure.</p>
+        </div>
+        <div class="bg-slate-700 p-6 rounded-xl shadow-inner">
+          <h3 class="text-2xl font-semibold text-teal-400">CompTIA Security+ (CE)</h3>
+          <p class="mt-2 text-lg">Covers foundational cybersecurity skills including threat management, risk mitigation, and incident response. Valid through May 2027.</p>
+        </div>
+        <div class="bg-slate-700 p-6 rounded-xl shadow-inner">
+          <h3 class="text-2xl font-semibold text-teal-400">EC-Council Certified Ethical Hacker (CEH)</h3>
+          <p class="mt-2 text-lg">Validates skills in penetration testing, attack vectors, and securing systems against real-world threats.</p>
+        </div>
+        <div class="bg-slate-700 p-6 rounded-xl shadow-inner">
+          <h3 class="text-2xl font-semibold text-teal-400">EC-Council Certified Encryption Specialist (ECES)</h3>
+          <p class="mt-2 text-lg">Focuses on cryptography concepts, algorithms, and practical applications in data protection.</p>
+        </div>
+        <div class="bg-slate-700 p-6 rounded-xl shadow-inner">
+          <h3 class="text-2xl font-semibold text-teal-400">Huawei HCIA</h3>
+          <p class="mt-2 text-lg">Huawei Certified ICT Associate credential covering network fundamentals, routing & switching, and security basics.</p>
+        </div>
+      </div>
+    </section>
 
-        <!-- Contact Section -->
-        <section id="contact" class="container mx-auto max-w-4xl bg-slate-800 p-8 rounded-2xl shadow-xl mb-12">
-            <h2 class="text-4xl font-bold mb-8 text-center text-white">Get In Touch</h2>
-            <div class="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-8 text-center">
-                <a href="mailto:[Your Email]" class="bg-teal-500 hover:bg-teal-600 text-white font-bold py-3 px-6 rounded-full transition-colors duration-300 shadow-lg">
-                    Email Me
-                </a>
-                <a href="[Your LinkedIn Profile URL]" target="_blank" class="bg-slate-700 hover:bg-slate-600 text-white font-bold py-3 px-6 rounded-full transition-colors duration-300 shadow-lg">
-                    Connect on LinkedIn
-                </a>
-            </div>
-        </section>
-    </main>
+    <!-- Contact Section -->
+    <section id="contact" class="container mx-auto max-w-4xl bg-slate-800 p-8 rounded-2xl shadow-xl mb-12">
+      <h2 class="text-4xl font-bold mb-8 text-center text-white">Get In Touch</h2>
+      <div class="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-8 text-center">
+        <a href="mailto:n.workplace1@gmail.com" class="bg-teal-500 hover:bg-teal-600 text-white font-bold py-3 px-6 rounded-full transition-colors duration-300 shadow-lg">
+          Email Me
+        </a>
+        <a href="https://www.linkedin.com/in/naser-almenhali-2b900531b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" class="bg-slate-700 hover:bg-slate-600 text-white font-bold py-3 px-6 rounded-full transition-colors duration-300 shadow-lg">
+          Connect on LinkedIn
+        </a>
+      </div>
+    </section>
+  </main>
 
-    <footer class="py-6 px-4 md:px-8 lg:px-16 text-center text-slate-400">
-        <p>&copy; [Current Year] [Your Name]. All Rights Reserved.</p>
-    </footer>
+  <footer class="py-6 px-4 md:px-8 lg:px-16 text-center text-slate-400">
+    <p>&copy; <span id="year"></span> Naser Almenhali. All Rights Reserved.</p>
+  </footer>
 
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 
 </html>
