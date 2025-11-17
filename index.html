@@ -29,6 +29,7 @@
         <li><a href="#certifications" class="text-slate-300 hover:text-white transition-colors duration-300">Certifications</a></li>
         <li><a href="#discipline-knowledge" class="text-slate-300 hover:text-white transition-colors duration-300">Knowledge</a></li>
         <li><a href="#critical-thinking" class="text-slate-300 hover:text-white transition-colors duration-300">Critical Thinking</a></li>
+        <li><a href="#communication" class="text-slate-300 hover:text-white transition-colors duration-300">Communication</a></li>
         <li><a href="#goals" class="text-slate-300 hover:text-white transition-colors duration-300">Goals</a></li>
         <li><a href="#hobbies" class="text-slate-300 hover:text-white transition-colors duration-300">Hobbies</a></li>
         <li><a href="#contact" class="text-slate-300 hover:text-white transition-colors duration-300">Contact</a></li>
@@ -41,7 +42,7 @@
     <section id="about" class="container mx-auto max-w-4xl bg-slate-800 p-8 rounded-2xl shadow-xl mb-12">
       <div class="flex flex-col md:flex-row items-center md:items-start space-y-6 md:space-y-0 md:space-x-8">
         <div class="w-36 h-36 rounded-full overflow-hidden flex-shrink-0 border-4 border-teal-400 shadow-lg">
-          <img src="https://placehold.co/144x144/1a202c/e2e8f0?text=N" alt="Naser Almenhali headshot placeholder" class="w-full h-full object-cover" />
+          <img src="https://placehold.co/144x144/1a202c/e2e8f0?text=N.A." alt="Naser Almenhali headshot placeholder" class="w-full h-full object-cover" />
         </div>
         <div class="text-center md:text-left">
           <h2 class="text-4xl font-bold mb-4 text-white">About Me</h2>
@@ -57,112 +58,204 @@
       </div>
     </section>
 
-    <!-- Skills & Coursework Section -->
+    <!-- RESTORED: Skills & Coursework Section -->
     <section id="skills" class="container mx-auto max-w-4xl bg-slate-800 p-8 rounded-2xl shadow-xl mb-12">
       <h2 class="text-4xl font-bold mb-8 text-center text-white">Skills & Coursework</h2>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div>
           <h3 class="text-2xl font-semibold mb-4 text-teal-400">Technical Skills</h3>
-          <ul class="list-disc list-inside space-y-2 text-slate-300">
+          <ul class="space-y-2 text-slate-300 list-disc list-inside">
             <li>Kali Linux, Nmap, Metasploit, Burp Suite, sqlmap, Hydra</li>
-            <li>Wireshark (packet capture & traffic analysis)</li>
-            <li>Web security (OWASP Top 10, auth/session hardening)</li>
+            <li>Wireshark (Packet Capture & Traffic Analysis)</li>
+            <li>Web Security (OWASP Top 10, Auth/Session Hardening)</li>
             <li>Python, Bash, JavaScript, PHP</li>
             <li>SQL (MySQL/SQLite/Oracle basics)</li>
             <li>Git, Markdown, LaTeX (Overleaf)</li>
-            <li>Cisco Packet Tracer (RIP, static/floating routes, VLANs)</li>
+            <li>Cisco Packet Tracer (RIP, Static/Floating Routes, VLANs)</li>
           </ul>
         </div>
         <div>
           <h3 class="text-2xl font-semibold mb-4 text-teal-400">Relevant Coursework</h3>
-          <ul class="list-disc list-inside space-y-2 text-slate-300">
+          <ul class="space-y-2 text-slate-300 list-disc list-inside">
             <li>Ethical Hacking & Penetration Testing</li>
             <li>Introduction to Software Security (OWASP 2021)</li>
             <li>Applied Cryptography & Network Security (Stallings)</li>
-            <li>Web Programming & Security (HTML/CSS/JS, PHP, SQL, SQL Injection)</li>
-            <li>Abnormal Psychology and Cyber Behavior</li>
-            <li>Thinking and Artificial Intelligence</li>
+            <li>Web Programming & Security (HTML/CSS/JS, PHP, SQL, SQLi)</li>
+            <li>Data Structures & Algorithms (Arrays, Stacks/Queues, Lists, Sorting)</li>
+            <li>Routing & Switching (Static/Default Routing, RIP)</li>
           </ul>
         </div>
       </div>
     </section>
 
-    <!-- Certifications Section -->
+    <!-- RESTORED: Certifications Section -->
     <section id="certifications" class="container mx-auto max-w-4xl bg-slate-800 p-8 rounded-2xl shadow-xl mb-12">
       <h2 class="text-4xl font-bold mb-8 text-center text-white">Certifications</h2>
-      <div class="space-y-6 text-slate-300">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Certification Card 1 -->
         <div class="bg-slate-700 p-6 rounded-xl shadow-inner">
-          <h3 class="text-2xl font-semibold text-teal-400">CompTIA Network+</h3>
-          <p class="mt-2 text-lg">Vendor-neutral certification validating networking concepts, troubleshooting, and infrastructure.</p>
+          <h3 class="text-xl font-semibold text-teal-400 mb-2">CompTIA Security+ (CE)</h3>
+          <p class="text-slate-300">Covers core cybersecurity skills including threat management, risk mitigation, and incident response. (Valid until: May 2027)</p>
         </div>
+        <!-- Certification Card 2 -->
         <div class="bg-slate-700 p-6 rounded-xl shadow-inner">
-          <h3 class="text-2xl font-semibold text-teal-400">CompTIA Security+ (CE)</h3>
-          <p class="mt-2 text-lg">Covers foundational cybersecurity skills including threat management, risk mitigation, and incident response. Valid through May 2027.</p>
+          <h3 class="text-xl font-semibold text-teal-400 mb-2">CompTIA Network+</h3>
+          <p class="text-slate-300">Vendor-neutral certification confirming networking concepts, troubleshooting, and infrastructure knowledge.</p>
         </div>
+        <!-- Certification Card 3 -->
         <div class="bg-slate-700 p-6 rounded-xl shadow-inner">
-          <h3 class="text-2xl font-semibold text-teal-400">EC-Council Certified Ethical Hacker (CEH)</h3>
-          <p class="mt-2 text-lg">Validates skills in penetration testing, attack vectors, and securing systems against real-world threats.</p>
+          <h3 class="text-xl font-semibold text-teal-400 mb-2">EC-Council CEH</h3>
+          <p class="text-slate-300">Certified Ethical Hacker. Validates skills in penetration testing, attack vectors, and securing systems against real-world threats.</p>
         </div>
+        <!-- Certification Card 4 -->
         <div class="bg-slate-700 p-6 rounded-xl shadow-inner">
-          <h3 class="text-2xl font-semibold text-teal-400">EC-Council Certified Encryption Specialist (ECES)</h3>
-          <p class="mt-2 text-lg">Focuses on cryptography concepts, algorithms, and practical applications in data protection.</p>
+          <h3 class="text-xl font-semibold text-teal-400 mb-2">EC-Council ECES</h3>
+          <p class="text-slate-300">Certified Encryption Specialist. Focuses on cryptography concepts, algorithms, and practical application in data protection.</p>
         </div>
+        <!-- Certification Card 5 -->
         <div class="bg-slate-700 p-6 rounded-xl shadow-inner">
-          <h3 class="text-2xl font-semibold text-teal-400">Huawei HCIA</h3>
-          <p class="mt-2 text-lg">Huawei Certified ICT Associate credential covering network fundamentals, routing & switching, and security basics.</p>
+          <h3 class="text-xl font-semibold text-teal-400 mb-2">Huawei HCIA</h3>
+          <p class="text-slate-300">Huawei Certified ICT Associate, covering networking fundamentals, routing & switching, and security basics.</p>
         </div>
       </div>
     </section>
 
-    <!-- UPDATED: Discipline Knowledge & Growth Section -->
+    <!-- RESTORED: Discipline Knowledge Section -->
     <section id="discipline-knowledge" class="container mx-auto max-w-4xl bg-slate-800 p-8 rounded-2xl shadow-xl mb-12">
       <h2 class="text-4xl font-bold mb-8 text-center text-white">Discipline Knowledge & Growth</h2>
-      
-      <div class="bg-slate-700 p-6 rounded-xl shadow-inner mb-8">
+    
+      <div class="bg-slate-700 p-6 rounded-xl shadow-inner mb-6">
         <h3 class="text-2xl font-semibold mb-4 text-teal-400">My Mid-Term Study Strategy</h3>
-        <p class="text-lg text-slate-300">
-          For my mid-terms, which covered lectures 2, 3, 4, 5, and 7, I didn't just try to memorize facts. My method was to first gather all my notes and the lecture slides into one place. Then, I focused on understanding the *real meaning* of the topics and how they connect. For example, I made charts to link ideas from different weeks, like how 'Deviant Online Behavior' (Week 4) and 'Personality in Cyberspace' (Week 5) both build on the ideas of 'Online Identity' (Week 2). This way, I actually *learned* the material for the long run, not just for the test.
+        <p class="text-slate-300">
+          To prepare for my mid-term, which covered lectures from Week 2, 3, 4, 5, and 7, I moved from just memorizing facts to organizing concepts. First, I created a brief summary for each lecture to get the main idea. Then, I built a detailed mind map that connected the key topics. For example, I linked 'Intro to Psychology' (Week 2/3) to 'Cyberdeviance' (Week 4) and 'Personality in Cyberspace' (Week 5). This visual map helped me see the "big picture"—how our basic psychology is the foundation for our online behavior, which was a core theme of the exam. This method was about understanding connections, not just remembering definitions.
         </p>
       </div>
-
-      <h3 class="text-2xl font-semibold mb-4 text-center text-teal-400">Domain Reflections & Professional Development</h3>
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-        
-        <!-- Domain 1 -->
+    
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <!-- Reflection 1 -->
         <div class="bg-slate-700 p-6 rounded-xl shadow-inner">
-          <h4 class="text-xl font-semibold mb-3 text-white">Domain 1: Abnormal Psychology & Cyber Behavior</h4>
-          <p class="text-slate-300 mb-4">
-            This area (from Weeks 4 & 5) covered *why* people act the way they do online. We learned about different online personalities, what motives cybercriminals have, and deviant behavior.
-          </p>
-          <h5 class="text-lg font-semibold text-teal-400 mb-2">Reflection:</h5>
+          <h3 class="text-2xl font-semibold mb-4 text-teal-400">Reflection 1: Abnormal Psychology & Cyber Behavior (Week 4)</h3>
           <p class="text-slate-300">
-            This is critical for my career. Security isn't just about computers; it's about people. Knowing *why* someone might launch an attack or how to spot manipulation helps me understand **social engineering**. Instead of just blocking a bad IP address, I can think about the *person* behind the attack and what they're after. This helps build much smarter defenses.
-          </sP>
+            This domain was an eye-opener. I learned that "cyberdeviance" isn't just a technical problem; it's a human one. The lecture showed how the internet can make people act in ways they wouldn't offline. This concept is crucial for my career. In cybersecurity, we can't just build a strong wall; we have to understand why someone would try to climb it, or how they might be tricked into opening the gate. This knowledge helps me think about building systems that are not just technically secure, but also resilient to human manipulation.
+          </p>
         </div>
-
-        <!-- Domain 2 -->
+    
+        <!-- Reflection 2 -->
         <div class="bg-slate-700 p-6 rounded-xl shadow-inner">
-          <h4 class="text-xl font-semibold mb-3 text-white">Domain 2: Thinking & Artificial Intelligence</h4>
-          <p class="text-slate-300 mb-4">
-            These lectures (from Weeks 9 & 10) were about how *we* think, solve problems, and how our brains store information. We then compared this to how Artificial Intelligence (AI) works.
-          </p>
-          <h5 class="text-lg font-semibold text-teal-400 mb-2">Reflection:</h5>
+          <h3 class="text-2xl font-semibold mb-4 text-teal-400">Reflection 2: Personality in Cyberspace (Week 5)</h3>
           <p class="text-slate-300">
-            This helps me in two ways. First, many modern security tools (like threat detectors) use AI. By knowing *how* AI 'thinks,' I can use those tools better and not just trust them blindly. Second, learning about human problem-solving helps me improve my *own* skills. When there's a security alert, I know how to think through the problem step-by-step to find the real cause, rather than jumping to the wrong conclusion.
+            This lecture on personality (like the 'Big Five' traits) and narcissism directly connects to my professional development. It helped me understand the "why" behind different online behaviors. For example, a person high in "openness" might be more curious and click on a suspicious link, while a person with low self-esteem might be more vulnerable to a scam promising a reward. This knowledge is not just academic; it is the basis for creating user-specific security training. Instead of one-size-fits-all, we can create awareness programs that address the specific psychological triggers people have.
           </p>
         </div>
       </div>
     </section>
 
-    <!-- UPDATED: Critical Thinking Section -->
+    <!-- RESTORED: Inquiry & Critical Thinking Section -->
     <section id="critical-thinking" class="container mx-auto max-w-4xl bg-slate-800 p-8 rounded-2xl shadow-xl mb-12">
       <h2 class="text-4xl font-bold mb-8 text-center text-white">Inquiry & Critical Thinking</h2>
-      <p class="text-lg text-slate-300 mb-4">
-        My classes, especially on cyber behavior, have taught me to be a better critical thinker. I've learned that a person's online profile isn't just a profile; it's a collection of clues about their personality and habits, which can be used in attacks. This understanding goes beyond just the technical side and focuses on the human element—which is often the weakest link.
-      </p>
-      <p class="text-lg text-slate-300">
-        In my future job, this means I'll have a clear process for investigating problems. When a security alarm goes off, my first step is to brainstorm all the possibilities (e.g., "Is this malware? An insider threat? A false alarm?"). After I have all the ideas, I'll use logic to find the *one* right answer. This stops me from getting stuck on the first or most obvious solution, which is often the wrong one, and helps me find the real root of the problem.
-      </p>
+    
+      <div class="bg-slate-700 p-6 rounded-xl shadow-inner">
+        <h3 class="text-2xl font-semibold mb-4 text-teal-400">My Approach to Cyberpsychology</h3>
+        <p class="text-slate-300">
+          Studying cyberpsychology has fundamentally changed my approach to security. Before, I saw security as purely technical—firewalls, encryption, and code. Now, I understand that the human is the most critical element in any system.
+        </p>
+        <p class="text-slate-300 mt-4">
+          My critical thinking process now incorporates this "human element" first. When I see a security flaw, I don't just ask "How can this be patched?" I ask, "What psychological principle does this exploit?" Is it authority (like a fake CEO email), or curiosity (a USB stick left in a lobby), or social proof (a fake login page that looks real)? This perspective shifts me from just being a technician to being a strategist. It allows me to anticipate future threats by focusing on the unchanging aspects of human behavior, rather than just reacting to the latest piece of malware.
+        </p>
+      </div>
+    </section>
+
+    <!-- Ethical & Professional Communication Section -->
+    <section id="communication" class="container mx-auto max-w-4xl bg-slate-800 p-8 rounded-2xl shadow-xl mb-12">
+      <h2 class="text-4xl font-bold mb-8 text-center text-white">Ethical & Professional Communication</h2>
+      
+      <!-- Part 1: Ethical Reasoning -->
+      <div class="mb-10">
+        <h3 class="text-3xl font-semibold mb-6 text-teal-400">1. Ethical Reasoning</h3>
+        <p class="text-lg text-slate-400 mb-6 text-center">Demonstrating growth in ethical analysis from foundational principles to complex, applied scenarios.</p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-6">
+          <div class="bg-slate-700 p-6 rounded-xl shadow-inner">
+            <h4 class="text-xl font-semibold mb-3 text-white">Evidence 1 (Early): Foundational Ethics</h4>
+            <p class="text-slate-300">
+              An early assignment from 'Introduction to Psychology' (Week 2/3) focused on the ethics of data privacy and online identity. We discussed the basic ethical failures of companies that collect user data without clear consent. At this stage, my understanding was focused on a clear right-vs-wrong: "it is wrong to take data without asking."
+            </p>
+          </div>
+          <div class="bg-slate-700 p-6 rounded-xl shadow-inner">
+            <h4 class="text-xl font-semibold mb-3 text-white">Evidence 2 (Advanced): Applied Ethics</h4>
+            <p class="text-slate-300">
+              A later case study in 'Psychology and Cybersecurity' (Week 12) presented a complex dilemma: an IT department wanted to enforce a highly secure 20-character password policy, but it was causing employees to write passwords on sticky notes. My task was to analyze this using the "Psychological Acceptability" principle and propose a solution that balanced security with human well-being, such as using 2FA and password managers.
+            </p>
+          </div>
+        </div>
+
+        <div class="bg-slate-700 p-6 rounded-xl shadow-inner">
+          <h4 class="text-xl font-semibold mb-3 text-white">Reflection on Ethical Growth</h4>
+          <p class="text-slate-300">
+            My understanding of ethics has clearly grown. I started by seeing ethics as a simple rule, like "don't steal data" (Evidence 1). The Week 12 case study (Evidence 2) forced me to move beyond that. It taught me that ethics in my field is rarely a simple choice, but a complex balance. I learned that forcing an unusable system on people is an ethical failure because it ignores their well-being (Week 15) and leads to worse security.
+          </p>
+          <p class="text-slate-300 mt-2">
+            This growth means that in my career, I won't just be a technical gatekeeper. I'll be a problem-solver who can navigate the "grey area" between perfect security and human-centric design, making decisions that are both secure and ethically sound.
+          </p>
+        </div>
+      </div>
+
+      <!-- Part 2: Oral & Written Communication -->
+      <div>
+        <h3 class="text-3xl font-semibold mb-6 text-teal-400">2. Oral & Written Communication</h3>
+        <p class="text-lg text-slate-400 mb-6 text-center">Developing communication skills from simple reporting to professional, persuasive writing and presenting.</p>
+        
+        <!-- Written Communication -->
+        <div class="mb-10">
+          <h4 class="text-2xl font-semibold mb-4 text-white">Written Communication</h4>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-6">
+            <div class="bg-slate-700 p-6 rounded-xl shadow-inner">
+              <h5 class="text-lg font-semibold mb-2 text-teal-400">Evidence 1 (Early): Factual Report</h5>
+              <p class="text-slate-300 border-l-4 border-slate-500 pl-4">
+                "Cyber-deviance is when people behave badly online. This includes unauthorized use of an account or plagiarizing an essay. These are quasi-legal and not serious criminal acts. The internet can make people feel disinhibited. This means they will challenge offline norms."
+              </p>
+            </div>
+            <div class="bg-slate-700 p-6 rounded-xl shadow-inner">
+              <h5 class="text-lg font-semibold mb-2 text-teal-400">Evidence 2 (Advanced): Research Proposal</h5>
+              <p class="text-slate-300 border-l-4 border-teal-400 pl-4">
+                "This research investigates the 'human firewall' by examining the link between cognitive biases and susceptibility to phishing. Drawing on principles from 'Psychology and Cybersecurity' (Weeks 11 & 12), this study will measure optimism bias... to develop a targeted training module that addresses these specific psychological vulnerabilities, moving beyond generic awareness campaigns to create a more resilient... campus environment."
+              </p>
+            </div>
+          </div>
+          <div class="bg-slate-700 p-6 rounded-xl shadow-inner">
+            <h5 class="text-xl font-semibold mb-3 text-white">Reflection on Writing Growth</h5>
+            <p class="text-slate-300">
+              The difference is clear. My early writing (Evidence 1) was very basic. It just listed facts from the lecture (Week 4) in simple terms. My advanced writing (Evidence 2) is professional and persuasive. Its strength is not just conciseness, but its ability to build an argument. It uses field-specific language (like "cognitive biases" and "human firewall") to identify a problem, propose a novel solution, and justify its importance. I moved from just reporting information to using it.
+            </p>
+          </div>
+        </div>
+        
+        <!-- Oral Communication -->
+        <div>
+          <h4 class="text-2xl font-semibold mb-4 text-white">Oral Communication</h4>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-6">
+            <div class="bg-slate-700 p-6 rounded-xl shadow-inner">
+              <h5 class="text-lg font-semibold mb-2 text-teal-400">Evidence 1 (Early): Text-Heavy Slide</h5>
+              <p class="text-slate-300">
+                In an early presentation on 'Abnormal Psychology' (Week 4), my slide on "Cyberdeviance" was a wall of text. It had 5 bullet points with long sentences taken directly from the lecture, which I mostly read aloud to the class. The audience was disengaged.
+              </p>
+            </div>
+            <div class="bg-slate-700 p-6 rounded-xl shadow-inner">
+              <h5 class="text-lg font-semibold mb-2 text-teal-400">Evidence 2 (Advanced): Audience-Focused Slide</h5>
+              <p class="text-slate-300">
+                For my presentation on 'Stress & Well-being' (Week 15), my final slide was a "call to action." It had a clear title ("Take Back Your Focus"), one simple graphic, and just three short, actionable key points (e.g., "1. Set 'Phone-Free' Zones").
+              </p>
+            </div>
+          </div>
+          <div class="bg-slate-700 p-6 rounded-xl shadow-inner">
+            <h5 class="text-xl font-semibold mb-3 text-white">Reflection on Presentation Growth</h5>
+            <p class="text-slate-300">
+              My presentation skills have completely changed. I used to make slides that were just speaker notes for me (Evidence 1). This was a failure because it made me read from the screen and ignore the audience. My new approach (Evidence 2) is audience-centric. Its strength is visual clarity. I now design slides to be read and understood in 5 seconds. This allows me to make eye contact, talk to my audience, and use the slide as a simple support for my message, which makes my delivery far more confident and engaging.
+            </p>
+          </div>
+        </div>
+
+      </div>
     </section>
 
     <!-- Goals & Personal Growth Section -->
@@ -210,13 +303,24 @@
     <!-- Hobbies & Interests Section -->
     <section id="hobbies" class="container mx-auto max-w-4xl bg-slate-800 p-8 rounded-2xl shadow-xl mb-12">
       <h2 class="text-4xl font-bold mb-8 text-center text-white">Hobbies & Interests</h2>
-      <p class="text-lg text-slate-300">
-        In my free time, I enjoy reading science fiction novels, which sharpen my critical thinking and ability to anticipate future scenarios. I also stay active by playing football with my friends, which teaches valuable lessons in teamwork and strategic thinking. Additionally, I have a passion for building mechanical keyboards, a hobby that requires a meticulous attention to detail that I find surprisingly similar to troubleshooting complex network issues.
-      </p>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <!-- Hobby 1 -->
+        <div class="bg-slate-700 p-6 rounded-xl shadow-inner">
+          <h3 class="text-xl font-semibold text-teal-400 mb-2">Sci-Fi Novels</h3>
+          <p class="text-slate-300">I enjoy reading science fiction novels, which sharpen my critical thinking and ability to anticipate future scenarios.</p>
+        </div>
+        <!-- Hobby 2 -->
+        <div class="bg-slate-700 p-6 rounded-xl shadow-inner">
+          <h3 class="text-xl font-semibold text-teal-400 mb-2">Football</h3>
+          <p class="text-slate-300">I also stay active by playing football with my friends, which teaches valuable lessons in teamwork and strategic thinking.</p>
+        </div>
+        <!-- Hobby 3 -->
+        <div class="bg-slate-700 p-6 rounded-xl shadow-inner">
+          <h3 class="text-xl font-semibold text-teal-400 mb-2">Mechanical Keyboards</h3>
+          <p class="text-slate-300">Additionally, I have a passion for building mechanical keyboards, a hobby that requires a meticulous attention to detail that I find surprisingly similar to troubleshooting complex network issues.</p>
+        </div>
+      </div>
     </section>
-
-    <!-- My Study Methods Section (Removed as it's now part of Discipline Knowledge) -->
-    <!-- <section id="study-methods" class="container mx-auto max-w-4xl bg-slate-800 p-8 rounded-2xl shadow-xl mb-12"> ... </section> -->
 
     <!-- Contact Section -->
     <section id="contact" class="container mx-auto max-w-4xl bg-slate-800 p-8 rounded-2xl shadow-xl mb-12">
@@ -225,7 +329,7 @@
         <a href="mailto:n.workplace1@gmail.com" class="bg-teal-500 hover:bg-teal-600 text-white font-bold py-3 px-6 rounded-full transition-colors duration-300 shadow-lg">
           Email Me
         </a>
-        <a href="https://www.linkedin.com/in/naser-almenhali-2b900531b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" class="bg-slate-700 hover:bg-slate-600 text-white font-bold py-3 px-6 rounded-full transition-colors duration-300 shadow-lg">
+        <a href="https://www.linkedin.com/in/naser-almenhali-2b900531b" target="_blank" class="bg-slate-700 hover:bg-slate-600 text-white font-bold py-3 px-6 rounded-full transition-colors duration-300 shadow-lg">
           Connect on LinkedIn
         </a>
       </div>
@@ -242,5 +346,3 @@
 </body>
 
 </html>
-
-
